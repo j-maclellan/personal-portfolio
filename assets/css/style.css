@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #000000;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    justify-content: space-between;
+    background-color: green;
+}
+/* about me */
+.about-me {
+    background-color:crimson;
+}
+ /* my work */
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.run-buddy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: center;
+    background-position: 80%;
+    align-items: flex-start;
+}
+
+.run-buddy h3 {
+    font-size: 16px;
+    position: relative;
+}
+
+.run-buddy h4 {
+    font-size:  16px;
+    position: relative;
+}
+
+/* contact me */
+
+.contact-me {
+    background-color: greenyellow;
+}
