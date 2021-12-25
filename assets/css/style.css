@@ -29,12 +29,26 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-image: url("../images/run-buddy.jpg");
+    /* background-image: url("../images/run-buddy.jpg"); */
     background-size: cover;
     background-position: center;
     background-attachment: center;
     background-position: 80%;
     align-items: flex-start;
+}
+
+.my-work a img {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    width: 150px;
+    height: 150px;
+    /* background-image: url("../images/run-buddy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: center;
+    background-position: 80%;
+    align-items: flex-start; */
 }
 
 .run-buddy h3 {
