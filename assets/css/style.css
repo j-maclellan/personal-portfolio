@@ -76,13 +76,28 @@ header nav ul li a {
     margin: 10px;
     border-bottom: dashed red;
 }
+.section-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 10px 0 0; 
+    border-right: 5px solid black;
+    flex: 1 1 30%;
+    display: block;
+    height: 100%;
+    padding: 30px;
+    float: left;
+    flex-direction: column;
+    background-color: white;
+    position: sticky;
+}
+
 /* about me */
 .about-me {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* height: 500px; */
-    margin: 10px 0;
+    margin: 0 10px;
+    flex: 1;
 }
 
 .about-me > * {
@@ -90,7 +105,7 @@ header nav ul li a {
     margin: 0 10px;
 }
 
-.me-self {
+.about-me-text {
     font-weight: bold;
     font-size: 20px;
     /* background-color:crimson; */
@@ -98,78 +113,133 @@ header nav ul li a {
     height: 100%;
     width: 80%;
     margin: 15px;
+    text-align: left;
+    flex: 2 2 70%;
+    padding: auto;  
 }
+
 /* about me end */ 
-.section-name {
-    /* margin-right: 10%;
-    margin-bottom: 25%; */
-    height: 100%;
-    width: 20%;
-    border-right: 5px solid black;
-    padding: 50px 25px;
-}
-.section-name h2  {
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    border: 1px;
-    
-    margin: auto;
-    display: block;
-    padding: 5px 10px;
-    
-}
 
 
 
-
-
-
- /* my work */
+/* my work */
 .my-work {
+    background-color: var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
-    justify-content: space-between;
-    flex: 1;
-    margin: 0 10px;
-    
-
+    justify-content: space-evenly;
+    /* margin: 0 10px; */
+    flex: 1 2 50%;
 }
 .run-buddy {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    background-size: cover;
-    background-position: center;
-    background-attachment: center;
-    background-position: 80%;
-    align-items: flex-start;
-    
-    
-}
-.run-buddy img {
-    flex-wrap: wrap;
-    height: 50%;
+    flex: 2 2 70%;
+    object-fit: contain;
+    background-image: url("../images/run-buddy.jpg");
     width: 50%;
-}
-.run-buddy h3 {
-    font-size: 16px;
-    position: relative;
-}
-
-.run-buddy h4 {
-    font-size:  16px;
-    position: relative;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0;
+    
 }
 
-.works  {
+.run-buddy-text {
+    line-height: 1.5;
+    font-size: 10px;
+    border: 5px solid black;
+    margin: auto;
+    background-color: rgba( 255, 255, 255, 0.80);
+    text-align: center;
+}
+
+
+.my-work-content {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    
+    
 }
-/* contact me */
+.my-work-img {
+    background-size: contain;
+}
+.my-work-img {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    object-fit: contain;
+    margin: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.my-work-text   {
+    line-height: 1.5;
+    font-size: 10px;
+    border: 5px solid black;
+    margin: auto;
+    background-color: rgba( 255, 255, 255, 0.80);
+    text-align: center;
+}
 
-.contact-me {
-    background-color: greenyellow;
+
+
+footer {
+    /* padding: 20px 36px; */
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 42px;
+    color: black;
+    margin: 0;
+    padding-right: 30%;
+    flex: 1 30%;
+    
+}
+
+footer a {
+    padding: 20px 36px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+footer nav {
+    flex: 1 70%;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer nav ul li a {
+    margin: 15px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    
+}
+
+.robot-img {
+    background-image: url("../images/robot-gladiators.jpg");
+    object-fit: fill;
+}
+
+.world-img {
+    background-image: url("../images/Hello-world.png");
+    object-fit: fill;
 }
