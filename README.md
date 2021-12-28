@@ -1,7 +1,7 @@
 # personal-portfolio
 
 ## Screenshot
-![This is the page]()
+![This is the page](https://j-maclellan.github.io/personal-portfolio)
 ## Purpose
 This webpage is a showcase of my prior works done, a source of information about me, and methods of contacting me.
 
@@ -17,6 +17,7 @@ This webpage is a showcase of my prior works done, a source of information about
 * CSS
 
 ## Website
+https://j-maclellan.github.io/personal-portfolio/
 
 ## Contributor
 * j-maclellan
